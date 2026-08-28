@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>document.documentElement.classList.add('js-enabled')</script>
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <!--==================== remixicon ========================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <!--==================== CSS ========================-->
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive portfolio website - Eng.sheikho</title>
+</head>
+
+<body>
+    <!--==================== Header ========================-->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Primary navigation">
+            <a href="#" class="nav__logo">Sheikho</a>
+            <div class="nav__menu" id="nav__menu" aria-hidden="true">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+
+                    <li><a href="#about" class="nav__link">About</a></li>
+
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+
+                    <!-- Resume navigation link (temporarily hidden)
+                    <li><a href="#resum" class="nav__link">Resum</a></li>
+                    -->
+
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+
+                </ul>
+
+                <!-- close button  -->
+
+                <button class="nav__close" id="nav__close" type="button" aria-label="Close navigation menu">
+                    <i class="ri-close-large-line" aria-hidden="true"></i>
+                </button>
+
+            </div>
+
+            <!-- toggle mune -->
+            <button class="nav__toggle" id="nav__toggle" type="button" aria-label="Open navigation menu"
+                aria-controls="nav__menu" aria-expanded="false">
+                <i class="ri-menu-line" aria-hidden="true"></i>
+            </button>
+
+        </nav>
+
+    </header>
+    <!--==================== Main ========================-->
+    <main class="main">
+
+        <section class="Home section" id="home">
+            <div class="home__container containar grid">
+                <div class="home__content">
+                    <div class="home__image">
+
+                        <img src="assets/img/home-perfil.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <!-- <a href="https://www.youtube.com/" target="_blank" class="home__link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="home__link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="home__link">
+                            <i class="ri-whatsapp-fill"></i> </a> -->
+
+                    </div>
+                </div>
+                <div class="home__data grid">
+
+                    <p class="home__subtitle">
+                        Hi I'am <span id="home-typed">
+
+                        </span>
+
+                    </p>
+                    <h1 class="home__title">Mohammad Sheikho</h1>
+
+                    <p class="home__description">
+                        IT engineer who graduated in Information Technology Engineering from the
+                        University of Qalamoun. Frontend and backend developer and Ai Engineer, proficient in Laravel,
+                        Python ,HTML and
+                        Flutter.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="assets/pdf/Mohammad_Sheikho_CV.pdf" download="" target="_blank" class="button">Download
+                            CV</a>
+                        <a href="#projects" class="button button__ghost">projects</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <article class="about__content">
+                    <header class="about__header">
+                        <p class="about__eyebrow">Get to know me</p>
+                        <h2 class="about__title">About Me</h2>
+                    </header>
+
+                    <div class="about__description">
+                        <p>
+                            I am Mohammad, an IT graduate with a Bachelor's degree in Information Technology
+                            Engineering from University of Kalamoun. During my studies, I worked on projects including
+                            building web and mobile applications, managing databases, training AI models, and
+                            developing backend systems.
+                        </p>
+                        <p>
+                        </p>
+                        <p>I aspire to contribute to an innovative technical environment.</p>
+                    </div>
+
+                    <a href="#contact" class="about__button button button__ghost">Contact Me</a>
+                </article>
+
+                <aside class="about__skills" aria-labelledby="skills-title">
+                    <div class="about__skills-heading">
+                        <i class="ri-bookmark-3-fill" aria-hidden="true"></i>
+                        <h3 class="about__skills-title" id="skills-title">Skills</h3>
+                    </div>
+
+                    <ul class="about__skills-list" aria-labelledby="skills-title">
+                        <li class="about__skill">Laravel</li>
+                        <li class="about__skill">Python</li>
+                        <li class="about__skill">Flutter</li>
+                        <li class="about__skill">Git</li>
+                        <li class="about__skill">GitHub</li>
+                        <li class="about__skill">HTML</li>
+                        <li class="about__skill">CSS</li>
+                        <li class="about__skill">JavaScript</li>
+                        <li class="about__skill">SQL</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+        <section class="additional-skills section" id="additional-skills" aria-labelledby="additional-skills-title">
+            <div class="additional-skills__container container">
+                <header class="additional-skills__header">
+                    <p class="additional-skills__eyebrow">Expanding my toolkit</p>
+                    <h2 class="additional-skills__title" id="additional-skills-title">Additional Expertise</h2>
+                </header>
+
+                <div class="additional-skills__grid">
+                    <article class="additional-skill">
+                        <div class="additional-skill__heading">
+                            <div class="additional-skill__name">
+                                <i class="ri-code-s-slash-line" aria-hidden="true"></i>
+                                <h3>Java</h3>
+                            </div>
+                            <span class="additional-skill__percentage">40%</span>
+                        </div>
+
+                        <div class="additional-skill__track" role="progressbar" aria-label="Java proficiency"
+                            aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+                            <span class="additional-skill__progress" style="--skill-level: 40%"></span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <div class="projects__container container">
+                <header class="projects__header">
+                    <p class="projects__eyebrow">Selected work</p>
+                    <h2 class="projects__title">Projects</h2>
+                </header>
+
+                <div class="projects__grid">
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="assets/img/mawaqef.png"
+                                alt="Coffee-themed interface preview for the Parking Management System"
+                                class="project__img">
+                        </div>
+
+                        <div class="project__content">
+                            <h3 class="project__name">Parking Management System</h3>
+                            <p class="project__description">
+                                Developed a full-stack parking management prototype using Flutter, Laravel, and MySQL.
+                                Implemented vehicle and parking-lot management, role-based approval workflows, token
+                                authentication, notifications, and administrative dashboards using a layered mobile
+                                architecture and REST APIs.
+                            </p>
+
+                            <ul class="project__tags" aria-label="Technologies used">
+                                <li class="project__tag">Flutter</li>
+                                <li class="project__tag">Laravel</li>
+                                <li class="project__tag">MySQL</li>
+                                <li class="project__tag">REST API</li>
+                                <li class="project__tag">Yolo</li>
+
+                            </ul>
+
+                            <!-- <a href="#" class="project__button button button__ghost"
+                                aria-label="View Parking Management System project">
+                                View Project
+                                <i class="ri-arrow-right-up-line" aria-hidden="true"></i>
+                            </a> -->
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="assets/img/bwabet-syria.png"
+                                alt="Business workshop interface preview for Syria Gate" class="project__img">
+                        </div>
+
+                        <div class="project__content">
+                            <h3 class="project__name">Syria Gate</h3>
+                            <p class="project__description">
+                                Developed Syria Gate, an Arabic digital government platform using Flutter, Laravel,
+                                MySQL, and FastAPI. Implemented OTP authentication, AI-assisted KYC, judicial checks,
+                                rule-based property valuation, and a multi-party property ownership transfer workflow
+                                with an administrative dashboard.
+                            </p>
+
+                            <ul class="project__tags" aria-label="Technologies used">
+                                <li class="project__tag">Flutter</li>
+                                <li class="project__tag">Laravel</li>
+                                <li class="project__tag">MySQL</li>
+                                <li class="project__tag">FastAPI</li>
+                                <li class="project__tag">AI / KYC</li>
+                            </ul>
+
+                            <!-- <a href="#" class="project__button button button__ghost"
+                                aria-label="View Syria Gate project">
+                                View Project
+                                <i class="ri-arrow-right-up-line" aria-hidden="true"></i>
+                            </a> -->
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="project-experience section" id="project-experience"
+            aria-labelledby="project-experience-title">
+            <div class="project-experience__container container">
+                <header class="project-experience__header">
+                    <p class="project-experience__eyebrow">Real-world contributions</p>
+                    <h2 class="project-experience__title" id="project-experience-title">Backend Project Experience</h2>
+                    <p class="project-experience__subtitle">
+                        Platforms I have contributed to and projects I am currently helping to build.
+                    </p>
+                </header>
+
+                <div class="project-experience__grid">
+                    <article class="experience-project">
+                        <div class="experience-project__topline">
+                            <span class="experience-project__status experience-project__status--previous">
+                                <i class="ri-history-line" aria-hidden="true"></i>
+                                Previous Project
+                            </span>
+                            <span class="experience-project__number" aria-hidden="true">01</span>
+                        </div>
+
+                        <div class="experience-project__content">
+                            <h3 class="experience-project__name">Learn Flow</h3>
+                            <p class="experience-project__description">
+                                An educational video platform for discovering short, Reels-style learning videos and
+                                interacting with the content. I contributed as a Backend Developer, working with
+                                Laravel on the platform's server-side functionality.
+                            </p>
+                        </div>
+
+                        <ul class="experience-project__meta" aria-label="Role and technology">
+                            <li><i class="ri-server-line" aria-hidden="true"></i>Backend Developer</li>
+                            <li><i class="ri-code-box-line" aria-hidden="true"></i>Laravel</li>
+                        </ul>
+                    </article>
+
+                    <article class="experience-project experience-project--current">
+                        <div class="experience-project__topline">
+                            <span class="experience-project__status experience-project__status--current">
+                                <i class="ri-loader-4-line" aria-hidden="true"></i>
+                                Currently Working On
+                            </span>
+                            <span class="experience-project__number" aria-hidden="true">02</span>
+                        </div>
+
+                        <div class="experience-project__content">
+                            <h3 class="experience-project__name">Notes Platform</h3>
+                            <p class="experience-project__description">
+                                A platform where users can create public or private notes, interact with shared notes,
+                                and join discussions through comments. I am currently developing its backend using
+                                Laravel.
+                            </p>
+                        </div>
+
+                        <ul class="experience-project__meta" aria-label="Role and technology">
+                            <li><i class="ri-server-line" aria-hidden="true"></i>Backend Developer</li>
+                            <li><i class="ri-code-box-line" aria-hidden="true"></i>Laravel</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Resume section (temporarily hidden)
+        <section class="Resum section" id="resum"></section>
+        -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <header class="contact__header">
+                    <p class="contact__eyebrow">Get in touch</p>
+                    <h2 class="contact__title">Contact Me</h2>
+                    <p class="contact__subtitle">
+                        Have a project or an opportunity in mind? Send me a message and I will get back to you.
+                    </p>
+                </header>
+
+                <div class="contact__content">
+                    <aside class="contact__info" aria-labelledby="contact-info-title">
+                        <div>
+                            <h3 class="contact__info-title" id="contact-info-title">Let's talk</h3>
+                            <p class="contact__info-description">
+                                You can reach me directly by email or use the form to send your message.
+                            </p>
+                        </div>
+
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <span class="contact__icon" aria-hidden="true">
+                                    <i class="ri-phone-line"></i>
+                                </span>
+                                <div class="contact__item-content">
+                                    <p class="contact__label">Phone</p>
+                                    <a href="tel:+963996040284" class="contact__link" dir="ltr">
+                                        +963 996 040 284
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contact__item">
+                                <span class="contact__icon" aria-hidden="true">
+                                    <i class="ri-mail-line"></i>
+                                </span>
+                                <div class="contact__item-content">
+                                    <p class="contact__label">Email</p>
+                                    <a href="mailto:mohsh6495@gmail.com" class="contact__link">
+                                        mohsh6495@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </aside>
+
+                    <form class="contact__form" id="contact-form"
+                        action="https://formsubmit.co/ajax/mohsh6495@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New portfolio contact message">
+                        <input type="hidden" name="_template" value="table">
+
+                        <label class="contact__honey" aria-hidden="true">
+                            Leave this field empty
+                            <input type="text" name="_honey" tabindex="-1" autocomplete="off">
+                        </label>
+
+                        <div class="contact__field">
+                            <label for="contact-name" class="contact__field-label">Name</label>
+                            <input type="text" name="name" id="contact-name" class="contact__input"
+                                placeholder="Your name" autocomplete="name" minlength="2" maxlength="80" required>
+                        </div>
+
+                        <div class="contact__field">
+                            <label for="contact-email" class="contact__field-label">Email</label>
+                            <input type="email" name="email" id="contact-email" class="contact__input"
+                                placeholder="you@example.com" autocomplete="email" maxlength="120" required>
+                        </div>
+
+                        <div class="contact__field">
+                            <label for="contact-message" class="contact__field-label">Message</label>
+                            <textarea name="message" id="contact-message" class="contact__input contact__textarea"
+                                placeholder="Tell me about your project" minlength="10" maxlength="2000"
+                                required></textarea>
+                        </div>
+
+                        <p class="contact__status" id="contact-status" role="status" aria-live="polite"></p>
+
+                        <button type="submit" class="contact__button button">
+                            <span class="contact__button-text">Send Message</span>
+                            <i class="ri-send-plane-line" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <!--==================== Footer ========================-->
+    <footer class="footer">
+
+    </footer>
+    <!--==================== scroll up ========================-->
+
+    <!--==================== scrollRevel ========================-->
+    <script src=""></script>
+
+    <!--==================== typed js ========================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/3.0.0/typed.umd.min.js">    </script>
+
+    <!--==================== Email js ========================-->
+    <script src=""></script>
+
+    <!--==================== main js ========================-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
