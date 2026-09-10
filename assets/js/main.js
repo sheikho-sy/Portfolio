@@ -73,7 +73,7 @@ const typedTarget = document.getElementById('home-typed')
 
 if (typedTarget && typeof Typed !== 'undefined' && !prefersReducedMotion.matches) {
     new Typed('#home-typed', {
-        strings: ['IT Engineer', 'backend Developer', 'Ai Engineer', 'frontend Developer'],
+        strings: ['Software Engineer', 'Full Stack Developer'],
         typeSpeed: 80,
         backSpeed: 50,
         backDelay: 2000,
@@ -81,9 +81,8 @@ if (typedTarget && typeof Typed !== 'undefined' && !prefersReducedMotion.matches
         cursorChar: '_',
     })
 } else if (typedTarget) {
-    typedTarget.textContent = 'IT Engineer'
+    typedTarget.textContent = 'Software Engineer'
 }
-
 /*=============== ADD SHADOW HEADER ===============*/
 const shadowHeader = () => {
     const header = document.getElementById('header')
